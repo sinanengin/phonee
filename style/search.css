@@ -1,0 +1,154 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #6a11cb;
+}
+
+.search-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.filters {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.filters h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.filters label {
+  display: block;
+  margin-top: 10px;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filters .apply-filters {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filters .apply-filters:hover {
+  background-color: #6a11cb;
+}
+
+/* Phones Grid */
+.phones-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.phone-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.phone-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.phone-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.phone-card h4 {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.phone-card p {
+  margin: 5px 0;
+  color: #2575fc;
+  font-weight: bold;
+}
+
+/* Buy Button */
+.buy-btn {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-btn:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background: #ddd;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Phones</title>
+    <link rel="stylesheet" href="/style/navbar.css" />
+    <link rel="stylesheet" href="/style/search.css" />
+    <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="index.html">Phonee</a>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="search.html">Ürün Bul</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+      <div class="navbar-right">
+        <a href="sign_in.html"><button class="log-in-btn">Kayıt Ol</button></a>
+      </div>
+    </nav>
+
+    <main class="search-page">
+      <div class="search-bar">
+        <input type="text" placeholder="Search for phones..." />
+        <button>Ara</button>
+      </div>
+
+      <div class="content">
+        <aside class="filters">
+          <h3>Filters</h3>
+          <label for="brand">Brand:</label>
+          <select id="brand">
+            <option value="all">All</option>
+            <option value="apple">Apple</option>
+            <option value="samsung">Samsung</option>
+            <option value="xiaomi">Xiaomi</option>
+            <option value="oneplus">OnePlus</option>
+          </select>
+
+          <label for="price">Price Range:</label>
+          <input type="number" id="min-price" placeholder="Min" />
+          <input type="number" id="max-price" placeholder="Max" />
+
+          <button class="apply-filters">Apply Filters</button>
+        </aside>
+
+        <section class="phones-grid">
+          <div class="phone-card">
+            <img
+              src="images/myeu3tua-iphone-16-512gb-teal-638617460581852346.jpg.webp"
+              alt="Phone"
+            />
+            <h4>Iphone 16</h4>
+            <p>$799</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+          <div class="phone-card">
+            <img
+              src="images/samsung-galaxy-s24-ultra-5gsmartphone-tittanium-violet-1-1-800x800.png.webp"
+              alt="Phone"
+            />
+            <h4>Galaxy S24 Ultra</h4>
+            <p>$899</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+          <div class="phone-card">
+            <img src="images/898582364_.webp" alt="Phone" />
+            <h4>Mi 14</h4>
+            <p>$499</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+          <div class="phone-card">
+            <img src="https://via.placeholder.com/200" alt="Phone" />
+            <h4>Phone Name</h4>
+            <p>$499</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+          <div class="phone-card">
+            <img src="https://via.placeholder.com/200" alt="Phone" />
+            <h4>Phone Name</h4>
+            <p>$499</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+          <div class="phone-card">
+            <img src="https://via.placeholder.com/200" alt="Phone" />
+            <h4>Phone Name</h4>
+            <p>$499</p>
+            <a href="product.html"><button class="buy-btn">Satın Al</button></a>
+          </div>
+        </section>
+      </div>
+
+      <div class="pagination">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>Next</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Tüm Hakları Saklıdır.</p>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="search.html">Ürün Bul</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

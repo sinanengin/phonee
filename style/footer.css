@@ -1,0 +1,31 @@
+/* Footer Section */
+footer {
+  background: linear-gradient(
+    135deg,
+    #6a11cb,
+    #2575fc
+  ); /* Navbar renk geçişi */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}

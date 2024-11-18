@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="/style/navbar.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/auth.css" />
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="index.html">Phonee</a>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="search.html">Ürün Bul</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </nav>
+
+    <main class="auth-page">
+      <div class="auth-container">
+        <h1>Kayıt Ol</h1>
+        <form class="auth-form">
+          <label for="name">Ad ve Soyad</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Adınızı ve soyadınızı giriniz..."
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email adresinizi giriniz..."
+            required
+          />
+
+          <label for="password">Şifre:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Şifre oluşturun..."
+            required
+          />
+
+          <label for="confirm-password">Şifre Tekrar:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="Şifrenizi tekrar giriniz..."
+            required
+          />
+
+          <a href="index.html" class="submit-btn">Kayıt Ol</a>
+        </form>
+
+        <div class="auth-links">
+          <p>
+            Zaten bir hesabınız var mı? <a href="sign_in.html">Giriş Yap</a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Tüm Hakları Saklıdır.</p>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="search.html">Ürün Bul</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

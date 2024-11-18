@@ -1,0 +1,135 @@
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("../images/sell-phone-online-2239131344.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  padding: 20px;
+}
+
+.intro-section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Favorite Products Section */
+.favorite-products {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f5f5f5; /* Açık gri bir arka plan */
+  color: #333; /* Koyu gri metin rengi */
+}
+
+.favorite-products h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333; /* Başlık rengi koyu gri */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütunlu grid yapısı */
+  gap: 80px;
+  justify-content: center; /* Ürün kartlarını yatayda ortalar */
+  align-items: center; /* Ürün kartlarını dikeyde ortalar */
+  margin: 0 auto; /* Ortalamak için */
+  max-width: 1000px; /* Grid genişliğini sınırlayarak ortalanmasını sağlar */
+}
+
+.product-card {
+  background: #ffffff; /* Beyaz arka plan */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.product-card img {
+  max-width: 220px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+  color: #333; /* Başlık rengi koyu gri */
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #777; /* Açık gri metin rengi */
+}
+
+.product-card button {
+  background: #2575fc; /* Mavi buton rengi */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background: #6a11cb; /* Mor buton rengi */
+  color: white;
+}
+
+.product-card:hover {
+  transform: translateY(-10px); /* Hover effect for product cards */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Our Brands Section */
+.our-brands {
+  background-color: #f1f1f1;
+  padding: 40px;
+  text-align: center;
+}
+
+.our-brands h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.brand-slider {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+.brand {
+  display: inline-block;
+  padding: 10px;
+}
+
+.brand img {
+  width: 100px;
+  height: 50px;
+}
